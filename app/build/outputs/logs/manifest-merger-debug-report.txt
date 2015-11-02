@@ -1,0 +1,631 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:1:1-107:12
+	xmlns:tools
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:1:11-57
+	xmlns:android
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:3:11-69
+	package
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:2:11-40
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:5:11-36
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:4:11-34
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:7:5-9:40
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:13:5-78
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:15:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-wallet:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:16:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:18:5-73
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:18:22-71
+uses-permission#android.permission.CAMERA
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:19:5-64
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:19:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:20:5-70
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:20:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:21:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:22:22-63
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:24:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.MANAGE_USB
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:26:5-27:59
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:26:22-66
+	tools:ignore
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:27:22-57
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:28:22-79
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:29:19-67
+permission#com.example.gcm.permission.C2D_MESSAGE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:30:5-31:55
+	android:protectionLevel
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:31:17-52
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:30:17-70
+uses-permission#com.example.gcm.permission.C2D_MESSAGE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:32:5-78
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:32:22-75
+uses-feature#android.hardware.camera
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:34:5-36:35
+	android:required
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:35:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:38:5-80
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:38:22-78
+application
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:40:5-105:19
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:43:9-41
+	android:allowBackup
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:41:9-35
+	android:icon
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:42:9-45
+	android:theme
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:45:9-40
+	android:persistent
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:44:9-34
+receiver#fi.oulu.tol.vgs4msc.BootReceiver
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:47:9-56:20
+	android:enabled
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:49:13-35
+	android:permission
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:50:13-75
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:48:13-60
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:52:13-55:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:53:17-78
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:53:25-76
+category#android.intent.category.DEFAULT
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:54:17-75
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:54:27-73
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:58:9-66:20
+	android:exported
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:60:13-36
+	android:permission
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:61:13-73
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:59:13-66
+intent-filter#com.example.gcm+com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:62:13-65:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:63:25-78
+category#com.example.gcm
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:64:17-60
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:64:27-57
+activity#fi.oulu.tol.vgs4msc.VGSActivity
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:71:9-80:20
+	android:screenOrientation
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:74:13-49
+	android:label
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:73:13-45
+	android:theme
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:75:13-48
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:72:13-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:76:13-79:29
+action#android.intent.action.MAIN
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:77:17-68
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:77:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:78:17-76
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:78:27-74
+service#fi.oulu.tol.vgs4msc.MainService
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:82:3-69
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:82:12-58
+service#android.samples.com.gcmquickstart.MyGcmListenerService
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:84:9-90:19
+	android:exported
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:85:13-82
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:87:13-89:29
+service#android.samples.com.gcmquickstart.MyInstanceIDListenerService
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:91:9-97:19
+	android:exported
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:92:13-89
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:94:13-96:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:95:17-79
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:95:25-77
+service#android.samples.com.gcmquickstart.RegistrationIntentService
+ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:98:9-100:48
+	android:exported
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:99:13-87
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:28:7-31:37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:31:11-35
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:29:11-76
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:41:7-44:37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:44:11-35
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:43:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/AndroidManifest.xml:42:11-82
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:22:13-58
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:23:13-66
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:26:9-29:64
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:26:9-29:64
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:26:9-29:64
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:30:9-31:52
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:30:9-31:52
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:30:9-31:52
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:30:19-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:23:5-25:33
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:23:5-25:33
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:23:5-25:33
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:23:5-25:33
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:25:8-31
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:24:8-40
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/dengcanrong/master/MobileServiceTool/app/src/main/AndroidManifest.xml:1:1-107:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.google.android.gms:play-services-wallet:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/AndroidManifest.xml:21:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.google.android.gms:play-services-wallet:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/AndroidManifest.xml:22:22-71

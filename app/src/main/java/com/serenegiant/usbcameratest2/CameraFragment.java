@@ -67,7 +67,7 @@ import fi.oulu.tol.vgs4msc.User;
 import fi.tol.oulu.vgs4msc.R;
 
 public class CameraFragment extends Fragment {
-	/* private static final boolean DEBUG = true;    // set false when releasing
+	/*private static final boolean DEBUG = true;    // set false when releasing
     private static final String TAG = "VGSActivity";
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     // for thread pool

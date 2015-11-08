@@ -1,0 +1,70 @@
+-injars /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/transforms/CLASSES/FULL_PROJECT/jarMerging/debug/classes.jar
+-outjars /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/dengcanrong/Library/Android/sdk/build-tools/22.0.1/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration /Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class fi.oulu.tol.vgs4msc.BootReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.gcm.GcmReceiver {
+    <init>();
+}
+
+-keep class fi.oulu.tol.vgs4msc.VGSActivity {
+    <init>();
+}
+
+-keep class fi.oulu.tol.vgs4msc.MainService {
+    <init>();
+}
+
+-keep class android.samples.com.gcmquickstart.MyGcmListenerService {
+    <init>();
+}
+
+-keep class android.samples.com.gcmquickstart.MyInstanceIDListenerService {
+    <init>();
+}
+
+-keep class android.samples.com.gcmquickstart.RegistrationIntentService {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

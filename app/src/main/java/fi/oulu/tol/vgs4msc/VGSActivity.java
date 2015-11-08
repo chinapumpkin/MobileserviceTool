@@ -53,9 +53,13 @@ public final class VGSActivity extends Activity implements
         RtspClient.Callback,
         Session.Callback,
         SurfaceHolder.Callback {
-    private static final boolean DEBUG = true;    // set false when releasing
+    private static final boolean Pupil = false;
+    // if the pupil headset(UVCCamera) is attached from the startup, then set the Pupil tag as true.
+    // which means, this activity can set as service now, because the camerabutton and buttonstart can be delete
+    private static final boolean Debug = true;
     private static final String TAG = "VGSActivity";
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
+
     // for thread pool
     private static final int CORE_POOL_SIZE = 1;        // initial/minimum threads
     private static final int MAX_POOL_SIZE = 4;            // maximum threads
@@ -84,9 +88,9 @@ public final class VGSActivity extends Activity implements
             } else if (mUVCCamera != null) {
                 mUVCCamera.destroy();
                 mUVCCamera = null;
-                Log.d(TAG, "mUVCCamera != null");
+                if (Debug) Log.d(TAG, "mUVCCamera != null");
             } else {
-                Log.d(TAG, "ischecked is false");
+                if (Debug) Log.d(TAG, "ischecked is false");
             }
         }
     };
@@ -107,24 +111,12 @@ public final class VGSActivity extends Activity implements
 
         @Override
         public void onConnect(final UsbDevice device, final USBMonitor.UsbControlBlock ctrlBlock, final boolean createNew) {
-            Log.d(TAG, "onConnect");
+            if (Debug) Log.d(TAG, "onConnect");
 
             if (mUVCCamera != null)
                 mUVCCamera.destroy();
             mUVCCamera = new UVCCamera();
-            EXECUTER.execute(new Runnable() {
-                @Override
-                public void run() {
-                    mUVCCamera.open(ctrlBlock);
-                    if (mUVCCamera != null) {
-                        mUVCCamera.setPreviewDisplay(mSurfaceView);
-                        mUVCCamera.startPreview();
-                    } else {
-                        Log.d(TAG, "mUVCCamera is null");
-                    }
-                }
-            });
-            //after connect
+            mUVCCamera.open(ctrlBlock);
             mSession = SessionBuilder.getInstance()
                     .setContext(getApplicationContext())
                     .setAudioEncoder(SessionBuilder.AUDIO_AAC)
@@ -134,12 +126,14 @@ public final class VGSActivity extends Activity implements
                     .setCamera(mUVCCamera)
                     .build();
 
-            if (mUVCCamera == null) Log.d(TAG, "mUVCCamera is null");
             // Configures the RTSP client
             mClient = new RtspClient();
             mClient.setSession(mSession);
             mClient.setCallback(VGSActivity.this);
             mSession.startPreview();
+
+            mUVCCamera.setPreviewDisplay(mSurfaceView);
+            mUVCCamera.startPreview();
         }
 
         @Override
@@ -207,21 +201,18 @@ public final class VGSActivity extends Activity implements
         mpasswd = (EditText) findViewById(R.id.passwd);
         msip_address = (EditText) findViewById(R.id.sip_address);
         mregister = (Button) findViewById(R.id.register);
-        if (sharedPreferences.getString("name", null) != null){
+        if (sharedPreferences.getString("name", null) != null) {
             mlayoutregister.setVisibility(View.GONE);
-            User.setName(sharedPreferences.getString("name",null));
-            User.setPasswd(sharedPreferences.getString("passwd",null));
-            User.setSip_address(sharedPreferences.getString("sip_address",null));
+            User.setName(sharedPreferences.getString("name", null));
+            User.setPasswd(sharedPreferences.getString("passwd", null));
+            User.setSip_address(sharedPreferences.getString("sip_address", null));
             Intent intent = new Intent(this, MainService.class);
-            startService(intent);}
-       // mname.setText(User.getName());
-       // mpasswd.setText(User.getPasswd());
-       // msip_address.setText(User.getSip_address());
+            startService(intent);
+        }
 
-        // mlayoutregister.setVisibility(View.VISIBLE);
         mCameraButton = (ToggleButton) findViewById(R.id.camera_button);
         mUSBMonitor = new USBMonitor(this, mOnDeviceConnectListener);
-        Log.d(TAG, "onCreated");
+        if (Debug) Log.d(TAG, "onCreated");
         mButtonStart = (ImageButton) findViewById(R.id.start);
         mSurfaceView = (SurfaceView) findViewById(R.id.surface);
         mTextBitrate = (TextView) findViewById(R.id.bitrate);
@@ -229,10 +220,8 @@ public final class VGSActivity extends Activity implements
         mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
         mButtonStart.setOnClickListener(this);
         mregister.setOnClickListener(this);
-        //mainservice
-       /* Intent intent = new Intent(this, MainService.class);
-        startService(intent);*/
-        //libstreaming
+
+
         mSurfaceView.getHolder().addCallback(this);
 
 
@@ -287,7 +276,7 @@ public final class VGSActivity extends Activity implements
         // we send it to the server
         //mMsgHandler.messageToSend(mname.getText().toString(),mpasswd.getText().toString(),msip_address.getText().toString());
         mMsgHandler.messageToSend(User.getName(), User.getPasswd(), User.getSip_address());
-        Log.d(TAG, "send register message to server");
+        if (Debug) Log.d(TAG, "send register message to server");
         Intent intent = new Intent(this, MainService.class);
         startService(intent);
         mlayoutregister.setVisibility(View.GONE);
@@ -305,8 +294,8 @@ public final class VGSActivity extends Activity implements
         }
         mCameraButton = null;
         super.onDestroy();
-        if(mClient!=null) mClient.release();
-        if(mSession!=null) mSession.release();
+        if (mClient != null) mClient.release();
+        if (mSession != null) mSession.release();
         mSurfaceView.getHolder().removeCallback(this);
     }
 
@@ -407,19 +396,25 @@ public final class VGSActivity extends Activity implements
 
     @Override
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
-
+        Log.d(TAG, "surface changed");
+        if (Pupil) {
+            mUVCCamera.setPreviewDisplay(mSurfaceView);
+            mUVCCamera.startPreview();
+        }
     }
 
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
-        /** this is comment for test need to recovery **/
+        /** session need startpreview after uvccamera set **/
         // mSession.startPreview();
+        if (Debug) Log.d(TAG, "surface created");
     }
 
 
     @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
-        if (mClient!=null) mClient.stopStream();
+        if (mClient != null) mClient.stopStream();
+        if (Debug) Log.d(TAG, "surface destroyed");
     }
 
     @Override
@@ -428,8 +423,12 @@ public final class VGSActivity extends Activity implements
         LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
                 new IntentFilter(QuickstartPreferences.REGISTRATION_COMPLETE));
         mUSBMonitor.register();
-        if (mUVCCamera != null)
-            mUVCCamera.startPreview();
+        // need to comment the below if not attached with pupil pro glasses
+        if (Pupil) {
+            final List<DeviceFilter> filter = DeviceFilter.getDeviceFilters(getApplicationContext(), R.xml.device_filter);
+            Log.d(TAG, "filter:" + filter.get(0));
+            mUSBMonitor.requestPermission((mUSBMonitor.getDeviceList(filter.get(0))).get(0));
+        }
     }
 
     @Override

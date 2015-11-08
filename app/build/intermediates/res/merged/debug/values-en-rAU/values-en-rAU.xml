@@ -30,5 +30,4 @@
     <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating."</string>
     <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play services are updating"</string>
     <string msgid="411506735369601515" name="common_open_on_phone">"Open on phone"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Buy with Google"</string>
 </resources>

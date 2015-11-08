@@ -22,4 +22,36 @@
         sending the fetched token to the server or subscribing to the PubSub topic. Please try
         running the sample again.</string>
     <string name="registering_message">the token is on the way</string>
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <!-- Message Setting -->
+    <string name="label_left_text">Left Command</string>
+    <string name="label_right_text">Right Command</string>
+    <string name="label_forward_text">Forward Command</string>
+    <string name="label_stop_text">Stop Command</string>
+    <string name="save_setting">Save</string>
+    <string name="label_duty_cycle">Duty Cycle</string>
+    <string name="label_frequency">Frequency</string>
+    <string name="set_setting">Set</string>
+    <!-- Message Setting -->
+    <string name="LinphoneBtnString">Linphone</string>
+    <!---->
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="ConnectionBtnString">BLE Connection</string>
+    <string name="label_command">Command</string>
+    <string name="MessageSettingBtnString">Message Setting</string>
 </resources>

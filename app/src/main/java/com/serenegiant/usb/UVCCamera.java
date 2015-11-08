@@ -162,6 +162,7 @@ public class UVCCamera {
 
     public void setPreviewDisplay(final SurfaceView surfaceView) {
         Log.d(TAG, " setPreviewDisplay() do it with SurfaceView");
+        if(surfaceView.getHolder().getSurface()==null) Log.d(TAG,"surfaceview is null");
         nativeSetPreviewDisplay(mNativePtr, surfaceView.getHolder().getSurface());
     }
 

@@ -4,14 +4,6 @@
         "source": "/Users/dengcanrong/master/MobileServiceTool/app/src/main/res/raw/linphonerc_default"
     },
     {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/linphonerc_default",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/src/main/res/raw/linphonerc_default"
-    },
-    {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/linphonerc_factory",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/src/main/res/raw/linphonerc_factory"
-    },
-    {
         "merged": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/res/merged/debug/raw/rootca.pem",
         "source": "/Users/dengcanrong/master/MobileServiceTool/app/src/main/res/raw/rootca.pem"
     },
@@ -28,36 +20,12 @@
         "source": "/Users/dengcanrong/master/MobileServiceTool/app/src/main/res/raw/toy_mono.wav"
     },
     {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/ringback.wav",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/src/main/res/raw/ringback.wav"
-    },
-    {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/oldphone_mono.wav",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/src/main/res/raw/oldphone_mono.wav"
-    },
-    {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/res/raw/gtm_analytics"
-    },
-    {
         "merged": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/res/merged/debug/raw/incoming_chat.wav",
         "source": "/Users/dengcanrong/master/MobileServiceTool/app/src/main/res/raw/incoming_chat.wav"
     },
     {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/toy_mono.wav",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/src/main/res/raw/toy_mono.wav"
-    },
-    {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/incoming_chat.wav",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/src/main/res/raw/incoming_chat.wav"
-    },
-    {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/lpconfig.xsd",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/src/main/res/raw/lpconfig.xsd"
-    },
-    {
-        "merged": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/raw/rootca.pem",
-        "source": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/src/main/res/raw/rootca.pem"
+        "merged": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/res/raw/gtm_analytics"
     },
     {
         "merged": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/res/merged/debug/raw/ringback.wav",
@@ -66,9 +34,5 @@
     {
         "merged": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/res/merged/debug/raw/linphonerc_factory",
         "source": "/Users/dengcanrong/master/MobileServiceTool/app/src/main/res/raw/linphonerc_factory"
-    },
-    {
-        "merged": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
-        "source": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/res/raw/gtm_analytics"
     }
 ]

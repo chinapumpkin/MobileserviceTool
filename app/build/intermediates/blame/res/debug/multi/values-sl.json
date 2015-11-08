@@ -7,255 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
-                    "endColumn": 106,
-                    "endOffset": 207
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 291,
-                        "endColumn": 106,
-                        "endOffset": 393
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 212,
-                    "endColumn": 106,
-                    "endOffset": 314
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 398,
-                        "endColumn": 106,
-                        "endOffset": 500
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 319,
-                    "endColumn": 107,
-                    "endOffset": 422
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 505,
-                        "endColumn": 107,
-                        "endOffset": 608
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 427,
-                    "endColumn": 86,
-                    "endOffset": 509
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 613,
-                        "endColumn": 86,
-                        "endOffset": 695
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 514,
-                    "endColumn": 102,
-                    "endOffset": 612
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 700,
-                        "endColumn": 102,
-                        "endOffset": 798
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 617,
-                    "endColumn": 118,
-                    "endOffset": 731
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 803,
-                        "endColumn": 118,
-                        "endOffset": 917
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 736,
-                    "endColumn": 107,
-                    "endOffset": 839
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 922,
-                        "endColumn": 107,
-                        "endOffset": 1025
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 844,
-                    "endColumn": 108,
-                    "endOffset": 948
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1030,
-                        "endColumn": 108,
-                        "endOffset": 1134
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 953,
-                    "endColumn": 99,
-                    "endOffset": 1048
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1139,
-                        "endColumn": 99,
-                        "endOffset": 1234
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1053,
-                    "endColumn": 112,
-                    "endOffset": 1161
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1239,
-                        "endColumn": 112,
-                        "endOffset": 1347
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1166,
-                    "endColumn": 106,
-                    "endOffset": 1268
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1352,
-                        "endColumn": 106,
-                        "endOffset": 1454
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1273,
-                    "endColumn": 103,
-                    "endOffset": 1372
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1459,
-                        "endColumn": 103,
-                        "endOffset": 1558
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1377,
-                    "endColumn": 116,
-                    "endOffset": 1489
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1563,
-                        "endColumn": 116,
-                        "endOffset": 1675
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1494,
                     "endColumn": 198,
-                    "endOffset": 1688
+                    "endOffset": 299
                 },
                 "from": {
                     "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
@@ -270,11 +23,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 1693,
+                    "startOffset": 304,
                     "endColumn": 192,
-                    "endOffset": 1881
+                    "endOffset": 492
                 },
                 "from": {
                     "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
@@ -284,714 +37,6 @@
                         "startOffset": 2667,
                         "endColumn": 196,
                         "endOffset": 2859
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1886,
-                    "endColumn": 126,
-                    "endOffset": 2008
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2338,
-                        "endColumn": 126,
-                        "endOffset": 2460
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 2013,
-                    "endColumn": 260,
-                    "endOffset": 2269
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4530,
-                        "endColumn": 264,
-                        "endOffset": 4790
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 2274,
-                    "endColumn": 130,
-                    "endOffset": 2400
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 2076,
-                        "endColumn": 130,
-                        "endOffset": 2202
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 2405,
-                    "endColumn": 196,
-                    "endOffset": 2597
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1875,
-                        "endColumn": 200,
-                        "endOffset": 2071
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2602,
-                    "endColumn": 128,
-                    "endOffset": 2726
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1746,
-                        "endColumn": 128,
-                        "endOffset": 1870
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2731,
-                    "endColumn": 174,
-                    "endOffset": 2901
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 859,
-                        "endColumn": 178,
-                        "endOffset": 1033
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 2906,
-                    "endColumn": 131,
-                    "endOffset": 3033
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1614,
-                        "endColumn": 131,
-                        "endOffset": 1741
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 3038,
-                    "endColumn": 212,
-                    "endOffset": 3246
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1167,
-                        "endColumn": 216,
-                        "endOffset": 1379
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 3251,
-                    "endColumn": 225,
-                    "endOffset": 3472
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1384,
-                        "endColumn": 229,
-                        "endOffset": 1609
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 3477,
-                    "endColumn": 128,
-                    "endOffset": 3601
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 1038,
-                        "endColumn": 128,
-                        "endOffset": 1162
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 3606,
-                    "endColumn": 165,
-                    "endOffset": 3767
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 3637,
-                        "endColumn": 165,
-                        "endOffset": 3798
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 3772,
-                    "endColumn": 124,
-                    "endOffset": 3892
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 3512,
-                        "endColumn": 124,
-                        "endOffset": 3632
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 3897,
-                    "endColumn": 169,
-                    "endOffset": 4062
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 689,
-                        "endColumn": 169,
-                        "endOffset": 854
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 4067,
-                    "endColumn": 174,
-                    "endOffset": 4237
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 3337,
-                        "endColumn": 174,
-                        "endOffset": 3507
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 4242,
-                    "endColumn": 120,
-                    "endOffset": 4358
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 3216,
-                        "endColumn": 120,
-                        "endOffset": 3332
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 4363,
-                    "endColumn": 181,
-                    "endOffset": 4540
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 304,
-                        "endColumn": 181,
-                        "endOffset": 481
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 4545,
-                    "endColumn": 133,
-                    "endOffset": 4674
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 133,
-                        "endOffset": 299
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 4679,
-                    "endColumn": 161,
-                    "endOffset": 4836
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 4920,
-                        "endColumn": 161,
-                        "endOffset": 5077
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 4841,
-                    "endColumn": 124,
-                    "endOffset": 4961
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 4795,
-                        "endColumn": 124,
-                        "endOffset": 4915
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 36,
-                    "startColumn": 4,
-                    "startOffset": 4966,
-                    "endColumn": 140,
-                    "endOffset": 5102
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 3803,
-                        "endColumn": 140,
-                        "endOffset": 3939
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 37,
-                    "startColumn": 4,
-                    "startOffset": 5107,
-                    "endColumn": 248,
-                    "endOffset": 5351
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 4069,
-                        "endColumn": 252,
-                        "endOffset": 4317
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 5356,
-                    "endColumn": 124,
-                    "endOffset": 5476
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 3944,
-                        "endColumn": 124,
-                        "endOffset": 4064
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 39,
-                    "startColumn": 4,
-                    "startOffset": 5481,
-                    "endColumn": 108,
-                    "endOffset": 5585
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 4322,
-                        "endColumn": 108,
-                        "endOffset": 4426
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 40,
-                    "startColumn": 4,
-                    "startOffset": 5590,
-                    "endColumn": 197,
-                    "endOffset": 5783
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2465,
-                        "endColumn": 201,
-                        "endOffset": 2662
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 5788,
-                    "endColumn": 130,
-                    "endOffset": 5914
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 2207,
-                        "endColumn": 130,
-                        "endOffset": 2333
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 42,
-                    "startColumn": 4,
-                    "startOffset": 5919,
-                    "endColumn": 210,
-                    "endOffset": 6125
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 3001,
-                        "endColumn": 214,
-                        "endOffset": 3211
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 43,
-                    "startColumn": 4,
-                    "startOffset": 6130,
-                    "endColumn": 136,
-                    "endOffset": 6262
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2864,
-                        "endColumn": 136,
-                        "endOffset": 2996
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 44,
-                    "startColumn": 4,
-                    "startOffset": 6267,
-                    "endColumn": 98,
-                    "endOffset": 6361
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 4431,
-                        "endColumn": 98,
-                        "endOffset": 4525
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 45,
-                    "startColumn": 4,
-                    "startOffset": 6366,
-                    "endColumn": 121,
-                    "endOffset": 6483
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 293,
-                        "endColumn": 121,
-                        "endOffset": 410
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 46,
-                    "startColumn": 4,
-                    "startOffset": 6488,
-                    "endColumn": 107,
-                    "endOffset": 6591
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 415,
-                        "endColumn": 107,
-                        "endOffset": 518
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 6596,
-                    "endColumn": 108,
-                    "endOffset": 6700
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 523,
-                        "endColumn": 108,
-                        "endOffset": 627
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 6705,
-                    "endColumn": 110,
-                    "endOffset": 6811
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 632,
-                        "endColumn": 110,
-                        "endOffset": 738
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 49,
-                    "startColumn": 4,
-                    "startOffset": 6816,
-                    "endColumn": 85,
-                    "endOffset": 6897
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 743,
-                        "endColumn": 85,
-                        "endOffset": 824
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 50,
-                    "startColumn": 4,
-                    "startOffset": 6902,
-                    "endColumn": 93,
-                    "endOffset": 6991
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 829,
-                        "endColumn": 93,
-                        "endOffset": 918
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 51,
-                    "startColumn": 4,
-                    "startOffset": 6996,
-                    "endColumn": 104,
-                    "endOffset": 7096
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/res/values-sl/wallet_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 104,
-                        "endOffset": 330
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/res/merged/debug/values-sl/values-sl.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 105,
-                    "endColumn": 106,
-                    "endOffset": 207
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 291,
-                        "endColumn": 106,
-                        "endOffset": 393
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 212,
-                    "endColumn": 106,
-                    "endOffset": 314
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 398,
-                        "endColumn": 106,
-                        "endOffset": 500
                     }
                 }
             },
@@ -999,259 +44,12 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 319,
-                    "endColumn": 107,
-                    "endOffset": 422
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 505,
-                        "endColumn": 107,
-                        "endOffset": 608
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 427,
-                    "endColumn": 86,
-                    "endOffset": 509
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 613,
-                        "endColumn": 86,
-                        "endOffset": 695
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 514,
-                    "endColumn": 102,
-                    "endOffset": 612
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 700,
-                        "endColumn": 102,
-                        "endOffset": 798
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 617,
-                    "endColumn": 118,
-                    "endOffset": 731
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 803,
-                        "endColumn": 118,
-                        "endOffset": 917
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 736,
-                    "endColumn": 107,
-                    "endOffset": 839
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 922,
-                        "endColumn": 107,
-                        "endOffset": 1025
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 844,
-                    "endColumn": 108,
-                    "endOffset": 948
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1030,
-                        "endColumn": 108,
-                        "endOffset": 1134
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 953,
-                    "endColumn": 99,
-                    "endOffset": 1048
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1139,
-                        "endColumn": 99,
-                        "endOffset": 1234
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1053,
-                    "endColumn": 112,
-                    "endOffset": 1161
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1239,
-                        "endColumn": 112,
-                        "endOffset": 1347
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1166,
-                    "endColumn": 106,
-                    "endOffset": 1268
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1352,
-                        "endColumn": 106,
-                        "endOffset": 1454
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1273,
-                    "endColumn": 103,
-                    "endOffset": 1372
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1459,
-                        "endColumn": 103,
-                        "endOffset": 1558
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1377,
-                    "endColumn": 116,
-                    "endOffset": 1489
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1563,
-                        "endColumn": 116,
-                        "endOffset": 1675
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1494,
-                    "endColumn": 198,
-                    "endOffset": 1688
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 486,
-                        "endColumn": 202,
-                        "endOffset": 684
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1693,
-                    "endColumn": 192,
-                    "endOffset": 1881
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2667,
-                        "endColumn": 196,
-                        "endOffset": 2859
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1886,
+                    "startOffset": 497,
                     "endColumn": 126,
-                    "endOffset": 2008
+                    "endOffset": 619
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1263,14 +61,14 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 2013,
+                    "startOffset": 624,
                     "endColumn": 260,
-                    "endOffset": 2269
+                    "endOffset": 880
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -1282,14 +80,14 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 2274,
+                    "startOffset": 885,
                     "endColumn": 130,
-                    "endOffset": 2400
+                    "endOffset": 1011
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1301,14 +99,14 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 2405,
+                    "startOffset": 1016,
                     "endColumn": 196,
-                    "endOffset": 2597
+                    "endOffset": 1208
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1320,14 +118,14 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 2602,
+                    "startOffset": 1213,
                     "endColumn": 128,
-                    "endOffset": 2726
+                    "endOffset": 1337
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1339,14 +137,14 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 2731,
+                    "startOffset": 1342,
                     "endColumn": 174,
-                    "endOffset": 2901
+                    "endOffset": 1512
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1358,14 +156,14 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 2906,
+                    "startOffset": 1517,
                     "endColumn": 131,
-                    "endOffset": 3033
+                    "endOffset": 1644
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1377,14 +175,14 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 3038,
+                    "startOffset": 1649,
                     "endColumn": 212,
-                    "endOffset": 3246
+                    "endOffset": 1857
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1396,14 +194,14 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 3251,
+                    "startOffset": 1862,
                     "endColumn": 225,
-                    "endOffset": 3472
+                    "endOffset": 2083
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1415,14 +213,14 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 3477,
+                    "startOffset": 2088,
                     "endColumn": 128,
-                    "endOffset": 3601
+                    "endOffset": 2212
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1434,14 +232,14 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 3606,
+                    "startOffset": 2217,
                     "endColumn": 165,
-                    "endOffset": 3767
+                    "endOffset": 2378
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1453,14 +251,14 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 3772,
+                    "startOffset": 2383,
                     "endColumn": 124,
-                    "endOffset": 3892
+                    "endOffset": 2503
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1472,14 +270,14 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 3897,
+                    "startOffset": 2508,
                     "endColumn": 169,
-                    "endOffset": 4062
+                    "endOffset": 2673
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1491,14 +289,14 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 4067,
+                    "startOffset": 2678,
                     "endColumn": 174,
-                    "endOffset": 4237
+                    "endOffset": 2848
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1510,14 +308,14 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 4242,
+                    "startOffset": 2853,
                     "endColumn": 120,
-                    "endOffset": 4358
+                    "endOffset": 2969
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1529,14 +327,14 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 4363,
+                    "startOffset": 2974,
                     "endColumn": 181,
-                    "endOffset": 4540
+                    "endOffset": 3151
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1548,14 +346,14 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 4545,
+                    "startOffset": 3156,
                     "endColumn": 133,
-                    "endOffset": 4674
+                    "endOffset": 3285
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1567,14 +365,14 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 4679,
+                    "startOffset": 3290,
                     "endColumn": 161,
-                    "endOffset": 4836
+                    "endOffset": 3447
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -1586,14 +384,14 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 4841,
+                    "startOffset": 3452,
                     "endColumn": 124,
-                    "endOffset": 4961
+                    "endOffset": 3572
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -1605,14 +403,14 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 4966,
+                    "startOffset": 3577,
                     "endColumn": 140,
-                    "endOffset": 5102
+                    "endOffset": 3713
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -1624,14 +422,14 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 5107,
+                    "startOffset": 3718,
                     "endColumn": 248,
-                    "endOffset": 5351
+                    "endOffset": 3962
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -1643,14 +441,14 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 5356,
+                    "startOffset": 3967,
                     "endColumn": 124,
-                    "endOffset": 5476
+                    "endOffset": 4087
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1662,14 +460,14 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 5481,
+                    "startOffset": 4092,
                     "endColumn": 108,
-                    "endOffset": 5585
+                    "endOffset": 4196
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -1681,14 +479,14 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 5590,
+                    "startOffset": 4201,
                     "endColumn": 197,
-                    "endOffset": 5783
+                    "endOffset": 4394
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1700,14 +498,14 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 5788,
+                    "startOffset": 4399,
                     "endColumn": 130,
-                    "endOffset": 5914
+                    "endOffset": 4525
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1719,14 +517,14 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 5919,
+                    "startOffset": 4530,
                     "endColumn": 210,
-                    "endOffset": 6125
+                    "endOffset": 4736
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1738,14 +536,14 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 6130,
+                    "startOffset": 4741,
                     "endColumn": 136,
-                    "endOffset": 6262
+                    "endOffset": 4873
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1757,153 +555,20 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 6267,
+                    "startOffset": 4878,
                     "endColumn": 98,
-                    "endOffset": 6361
+                    "endOffset": 4972
                 },
                 "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
+                    "file": "/Users/dengcanrong/master/MobileServiceTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-sl/common_strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
                         "startOffset": 4431,
                         "endColumn": 98,
                         "endOffset": 4525
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 45,
-                    "startColumn": 4,
-                    "startOffset": 6366,
-                    "endColumn": 121,
-                    "endOffset": 6483
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 293,
-                        "endColumn": 121,
-                        "endOffset": 410
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 46,
-                    "startColumn": 4,
-                    "startOffset": 6488,
-                    "endColumn": 107,
-                    "endOffset": 6591
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 415,
-                        "endColumn": 107,
-                        "endOffset": 518
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 6596,
-                    "endColumn": 108,
-                    "endOffset": 6700
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 523,
-                        "endColumn": 108,
-                        "endOffset": 627
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 6705,
-                    "endColumn": 110,
-                    "endOffset": 6811
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 632,
-                        "endColumn": 110,
-                        "endOffset": 738
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 49,
-                    "startColumn": 4,
-                    "startOffset": 6816,
-                    "endColumn": 85,
-                    "endOffset": 6897
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 743,
-                        "endColumn": 85,
-                        "endOffset": 824
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 50,
-                    "startColumn": 4,
-                    "startOffset": 6902,
-                    "endColumn": 93,
-                    "endOffset": 6991
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-sl/values-sl.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 829,
-                        "endColumn": 93,
-                        "endOffset": 918
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 51,
-                    "startColumn": 4,
-                    "startOffset": 6996,
-                    "endColumn": 104,
-                    "endOffset": 7096
-                },
-                "from": {
-                    "file": "/Users/dengcanrong/Downloads/MobileServiceTool-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/res/values-sl/wallet_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 104,
-                        "endOffset": 330
                     }
                 }
             }

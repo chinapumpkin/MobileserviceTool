@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:baselineAligned="false">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="'L', 'R', 'F', 'S' are sent to glasses. "
+              android:layout_gravity="center_horizontal"/>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_gravity="center_horizontal">
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinphoneBtn"
+                android:tag="Connect"
+                android:text="Connect"/>
+        <Button android:id="@+id/OnlineStatueBtn"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"/>
+        <TextView android:layout_width="60dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/LinphoneTextView"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:gravity="center">
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/command_forward_btn"
+                    android:gravity="center"
+                    android:tag="forward"
+                    android:text="Forward"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/command_left_btn"
+                    android:tag="left"
+                    android:text="Left"/>
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/command_stop_btn"
+                    android:tag="stop"
+                    android:text="Stop"/>
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/command_right_btn"
+                    android:tag="right"
+                    android:text="Right"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/charact_value"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="fill_horizontal">
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:id="@+id/dialog_cancel"/>
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OK"
+                    android:id="@+id/dialog_confirm"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

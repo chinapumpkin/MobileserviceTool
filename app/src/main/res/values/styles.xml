@@ -11,11 +11,11 @@
             backward-compatibility can go here.
         -->
     </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
-        <!-- Customize your theme here. -->
-        <item name="android:textColor">@android:color/white</item>
+   <!-- <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!- Customize your theme here. -->
+     <!--   <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">16sp</item>
-    </style>
+    </style>-->
 
     <style  name="RadioButton" parent="@android:style/Widget.CompoundButton">
         <item name="android:button">@null</item>

@@ -29,6 +29,7 @@ import android.util.Log;
 import com.google.android.gms.gcm.GcmListenerService;
 
 import fi.oulu.tol.vgs4msc.MainService;
+import fi.oulu.tol.vgs4msc.VGSActivity;
 import fi.oulu.tol.vgs4msc.handlers.MSGHandler;
 import fi.tol.oulu.vgs4msc.R;
 
@@ -80,7 +81,8 @@ public class MyGcmListenerService extends GcmListenerService {
      * @param message GCM message received.
      */
     private void sendNotification(String message) {
-        Intent intent = new Intent(this, MainActivity.class);
+
+        Intent intent = new Intent(this, VGSActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
                 PendingIntent.FLAG_ONE_SHOT);

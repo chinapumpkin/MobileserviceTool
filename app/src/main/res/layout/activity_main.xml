@@ -50,65 +50,98 @@
     </FrameLayout>
 
     <FrameLayout
-                 android:layout_width="match_parent"
-                 android:layout_height="match_parent"
-                 android:background="@color/black"
-                 android:id="@+id/register_layout"
-                 android:visibility="visible"
-        >
-
-    <LinearLayout
+        android:id="@+id/register_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/txtusername"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:text="name"/>
+        android:background="@color/black"
+        android:visibility="visible"
+        >
 
-        <EditText
-            android:id="@+id/name"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:inputType="text"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
 
-        <TextView
-            android:id="@+id/txtpassword"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:text="Password"/>
+            <TextView
+                android:id="@+id/txtusername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textSize="25dp"/>
 
-        <EditText
-            android:id="@+id/passwd"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:inputType="textPassword"/>
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/txtpassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="25dp"/>
+
+            <EditText
+                android:id="@+id/passwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@color/white"/>
 
 
-        <TextView
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linphone account"
+                android:textSize="25dp"/>
+
+            <EditText
+                android:id="@+id/sip_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textSize="25dp"/>
+        </LinearLayout>
+    </FrameLayout>
+        <LinearLayout
+            android:id="@+id/smart_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:text="Linphone account"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/sip_address"
-            android:textColor="@color/white"
-            android:inputType="text"/>
-        <Button
-            android:id="@+id/register"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:text="Register"/>
-    </LinearLayout>
-</FrameLayout>
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/ConnectionBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/ConnectionBtnString"
+                android:textColor="@color/white">
+            </Button>
+
+            <Button
+                android:id="@+id/MessageSettingBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/MessageSettingBtnString"
+                android:textColor="@color/white">
+            </Button>
+        </LinearLayout>
+
+
     <TextView
         android:id="@+id/bitrate"
         android:layout_width="wrap_content"
@@ -140,7 +173,6 @@
                 android:contentDescription="@string/start"
                 android:src="@drawable/ic_switch_video"
                 android:text="@string/start"/>
-
 
 
             <ToggleButton

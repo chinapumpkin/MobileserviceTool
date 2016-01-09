@@ -8,6 +8,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.hardware.usb.UsbDevice;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -23,6 +25,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
@@ -45,6 +48,8 @@ import java.util.concurrent.TimeUnit;
 
 import fi.oulu.tol.vgs4msc.handlers.MSGHandler;
 import fi.tol.oulu.vgs4msc.R;
+import oulu.university.smartglasses.DeviceScanActivity;
+import oulu.university.smartglasses.MessageSetting;
 
 //API_KEY="AIzaSyBngz6phmJufLy-HTLH09irXLre2j7TZOo"
 
@@ -117,6 +122,9 @@ public final class VGSActivity extends Activity implements
                 mUVCCamera.destroy();
             mUVCCamera = new UVCCamera();
             mUVCCamera.open(ctrlBlock);
+            mUVCCamera.setPreviewDisplay(mSurfaceView);
+            mUVCCamera.startPreview();
+
             mSession = SessionBuilder.getInstance()
                     .setContext(getApplicationContext())
                     .setAudioEncoder(SessionBuilder.AUDIO_AAC)
@@ -132,8 +140,7 @@ public final class VGSActivity extends Activity implements
             mClient.setCallback(VGSActivity.this);
             mSession.startPreview();
 
-            mUVCCamera.setPreviewDisplay(mSurfaceView);
-            mUVCCamera.startPreview();
+
         }
 
         @Override
@@ -158,10 +165,13 @@ public final class VGSActivity extends Activity implements
     private MSGHandler mMsgHandler;
     private BroadcastReceiver mRegistrationBroadcastReceiver;
     private FrameLayout mlayoutregister;
+    private LinearLayout mlayoutsmart;
     private EditText mname;
     private EditText mpasswd;
     private EditText msip_address;
     private Button mregister;
+    public static Button ConnectionBtn;
+    private Button MessageSettingBtn;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -169,7 +179,7 @@ public final class VGSActivity extends Activity implements
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
-
+//GCM
         mRegistrationBroadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
@@ -191,12 +201,13 @@ public final class VGSActivity extends Activity implements
             Intent intent = new Intent(this, RegistrationIntentService.class);
             startService(intent);
         }
-
+//layout
 
         SharedPreferences sharedPreferences =
                 PreferenceManager.getDefaultSharedPreferences(this);
         mMsgHandler = new MSGHandler(this);
         mlayoutregister = (FrameLayout) findViewById(R.id.register_layout);
+        mlayoutsmart=(LinearLayout)findViewById(R.id.smart_layout);
         mname = (EditText) findViewById(R.id.name);
         mpasswd = (EditText) findViewById(R.id.passwd);
         msip_address = (EditText) findViewById(R.id.sip_address);
@@ -208,6 +219,9 @@ public final class VGSActivity extends Activity implements
             User.setSip_address(sharedPreferences.getString("sip_address", null));
             Intent intent = new Intent(this, MainService.class);
             startService(intent);
+        }else{
+            mlayoutregister.setVisibility(View.VISIBLE);
+            mlayoutsmart.setVisibility(View.GONE);
         }
 
         mCameraButton = (ToggleButton) findViewById(R.id.camera_button);
@@ -220,8 +234,26 @@ public final class VGSActivity extends Activity implements
         mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
         mButtonStart.setOnClickListener(this);
         mregister.setOnClickListener(this);
+        //smart glasses
+        ConnectionBtn = (Button)findViewById(R.id.ConnectionBtn);
+        MessageSettingBtn = (Button)findViewById(R.id.MessageSettingBtn);
+        ConnectionBtn.getBackground().setColorFilter(Color.argb(255, 150, 100, 200), PorterDuff.Mode.DARKEN);
+        MessageSettingBtn.getBackground().setColorFilter(Color.argb(255, 150, 100, 200), PorterDuff.Mode.DARKEN);
 
+        ConnectionBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent bleIntent = new Intent(VGSActivity.this, DeviceScanActivity.class);
+                VGSActivity.this.startActivity(bleIntent);
+            }
+        });
 
+        MessageSettingBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent messageSettingIntent = new Intent(VGSActivity.this, MessageSetting.class);
+                VGSActivity.this.startActivity(messageSettingIntent);
+            }
+        });
+//libstreaming
         mSurfaceView.getHolder().addCallback(this);
 
 

@@ -1,6 +1,6 @@
 package oulu.university.smartglasses;
 
-//Some change
+//Some change wancheng
 
 import android.app.DialogFragment;
 import android.content.Context;
@@ -31,7 +31,7 @@ public class BleCommandFragment extends DialogFragment implements View.OnClickLi
     Button onlineStatueBtn;
     TextView linphoneTextView;
     Button linphoneBtn;
-    LinphoneMiniManager linphoneMiniManager;
+   // LinphoneMiniManager linphoneMiniManager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -48,8 +48,8 @@ public class BleCommandFragment extends DialogFragment implements View.OnClickLi
         forwardBtn.setOnClickListener(this);
         Button stopBtn = (Button) v.findViewById(R.id.command_stop_btn);
         stopBtn.setOnClickListener(this);
-        linphoneBtn = (Button) v.findViewById(R.id.LinphoneBtn);
-        linphoneBtn.setOnClickListener(this);
+        //linphoneBtn = (Button) v.findViewById(R.id.LinphoneBtn);
+        //linphoneBtn.setOnClickListener(this);
         onlineStatueBtn = (Button) v.findViewById(R.id.OnlineStatueBtn);
         onlineStatueBtn.getBackground().setColorFilter(Color.argb(255, 200, 0, 0), PorterDuff.Mode.DARKEN);
         linphoneTextView = (TextView) v.findViewById(R.id.LinphoneTextView);
@@ -91,6 +91,8 @@ public class BleCommandFragment extends DialogFragment implements View.OnClickLi
         return v;
     }
 
+
+
     public void onClick(View v) {
         switch (v.getTag().toString()) {
             case "left":
@@ -105,12 +107,10 @@ public class BleCommandFragment extends DialogFragment implements View.OnClickLi
             case "stop":
                 SendValueToBleReceiver(StopCommand);
                 break;
-            case "Connect":
+            /*case "Connect":
                     linphoneMiniManager = new LinphoneMiniManager(getActivity(), "linphone", this);
-                break;
-            case "Disconnect":
-                    linphoneMiniManager.destroy();
-                break;
+                break;*/
+
             default:
         }
     }
@@ -148,7 +148,7 @@ public class BleCommandFragment extends DialogFragment implements View.OnClickLi
     }
 
     @Override
-    public void callBackLinphoneMessageReceived(String linphoneMessageValue) {
+    public void callBackGCMMessageReceived(String linphoneMessageValue) {
         switch (linphoneMessageValue) {
             case "L":
                 SendValueToBleReceiver("LeftCommand");
@@ -167,23 +167,6 @@ public class BleCommandFragment extends DialogFragment implements View.OnClickLi
         linphoneTextView.setText(linphoneMessageValue);
     }
 
-    //get rid of this method
-    @Override
-    public void callBackLinphoneStatusChanged(String linphoneOnlineStatueValue) {
-        linphoneOnlineStatueValue=  linphoneOnlineStatueValue.toUpperCase();
-        switch (linphoneOnlineStatueValue) {
-            case "REGISTRATION SUCCESSFUL":
-                onlineStatueBtn.getBackground().setColorFilter(Color.argb(255, 0, 200, 0), PorterDuff.Mode.LIGHTEN);
-                linphoneBtn.setText("Disconnect");
-                linphoneBtn.setTag("Disconnect");
-                break;
-            default:
-                onlineStatueBtn.getBackground().setColorFilter(Color.argb(255, 200, 0, 0), PorterDuff.Mode.DARKEN);
-                linphoneBtn.setText("Connect");
-                linphoneBtn.setTag("Connect");
-        }
-
-    }
 
     public static byte[] hexStringToByteArray(String s) {
         int len = s.length();

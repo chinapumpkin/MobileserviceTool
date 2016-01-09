@@ -16,6 +16,7 @@
 
 package android.samples.com.gcmquickstart;
 
+import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -32,11 +33,13 @@ import fi.oulu.tol.vgs4msc.MainService;
 import fi.oulu.tol.vgs4msc.VGSActivity;
 import fi.oulu.tol.vgs4msc.handlers.MSGHandler;
 import fi.tol.oulu.vgs4msc.R;
+import oulu.university.smartglasses.ICallback;
 
 public class MyGcmListenerService extends GcmListenerService {
 
     private static final String TAG = "MyGcmListenerService";
-    protected MSGHandler mMsgHandler=new MSGHandler(this);
+    //protected MSGHandler mMsgHandler=new MSGHandler(this);
+    ICallback ic;
     /**
      * Called when message is received.
      *
@@ -57,19 +60,9 @@ public class MyGcmListenerService extends GcmListenerService {
             // normal downstream message.
         }
 
-        // [START_EXCLUDE]
-        /**
-         * Production applications would usually process the message here.
-         * Eg: - Syncing with server.
-         *     - Store message in local database.
-         *     - Update UI.
-         */
+        ic.callBackGCMMessageReceived(message);
 
-        /**
-         * In some cases it may be useful to show a notification indicating to the user
-         * that a message was received.
-         */
-        mMsgHandler.processMessages(message);
+       // mMsgHandler.processMessages(message);
         sendNotification(message);
         // [END_EXCLUDE]
     }

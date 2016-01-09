@@ -7,7 +7,7 @@ package oulu.university.smartglasses;
  */
 public interface ICallback {
         //change this interface method to your own application
-        void callBackLinphoneMessageReceived(String linphoneMessageValue);
+        void callBackGCMMessageReceived(String linphoneMessageValue);
         //remove this method
-        void callBackLinphoneStatusChanged(String linphoneOnlineStatueValue);
+        //void callBackLinphoneStatusChanged(String linphoneOnlineStatueValue);
 }

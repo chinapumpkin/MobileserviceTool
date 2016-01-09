@@ -12,7 +12,7 @@ android {
             targetCompatibility JavaVersion.VERSION_1_7
         }
         // Enabling multidex support.
-       multiDexEnabled true
+       //multiDexEnabled true
     }
 
     productFlavors {
@@ -28,7 +28,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-  // compile files('libs/liblinphone.jar')
+  compile files('libs/liblinphone.jar')
     compile "com.google.android.gms:play-services-gcm:8.1.0"
    // compile 'com.android.support:multidex:1.0.1'
 }

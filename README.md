@@ -3,15 +3,16 @@ this branch is for android part code
 The code for the web pages is in here:  
 https://github.com/chinapumpkin/web
 ##Purpose    
-Purpose of this study is to design teleguidance for elders and study the current tech- nology that could help senior walking around the zone around their house and get necessary survival assistance.   
+Purpose of this study is to design teleguidance for elders and study the current technology that could help senior walking around the zone around their house and get necessary survival assistance.   
 ##Components   
-1. Android phone   
+1. Android phone application   
+    this one    
 2. Pupil headset  
     a smart glasses which capture senior citizen’s font view.  
 3. Indicator-based Glasses  
     The indicator-based glasses can receive the bit array data through Bluetooth connection from Android application. By analysis the data from the smart phone, the colors, frequency, brightness and blinking time of light in the indicator-based glasses can be set in time.  
 4. OldBirds  
-   
+   designed by others  
 5. Web server part   
     The web server part is transfer station between Android phone and OldBirds part.  
 ##Function  

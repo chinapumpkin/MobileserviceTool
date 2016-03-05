@@ -12,9 +12,10 @@ Purpose of this study is to design teleguidance for elders and study the current
 3. Indicator-based Glasses  
     The indicator-based glasses can receive the bit array data through Bluetooth connection from Android application. By analysis the data from the smart phone, the colors, frequency, brightness and blinking time of light in the indicator-based glasses can be set in time.  
 4. OldBirds  
-   designed by others  
+   https://github.com/chinapumpkin/web      
 5. Web server part   
-    The web server part is transfer station between Android phone and OldBirds part.       
+    The web server part is transfer station between Android phone and OldBirds part. 
+    https://github.com/chinapumpkin/oldbirds
 
 ##Function  
 1. provide guidance for multiple seniors based on  their location.    

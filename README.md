@@ -14,10 +14,12 @@ Purpose of this study is to design teleguidance for elders and study the current
 4. OldBirds  
    designed by others  
 5. Web server part   
-    The web server part is transfer station between Android phone and OldBirds part.  
+    The web server part is transfer station between Android phone and OldBirds part.       
+
 ##Function  
 1. provide guidance for multiple seniors based on  their location.    
 2. support real-time streaming function.    
+
 ##Requirements
 * up Android 4.1  
     Because I use MediaCodec API and the buffer-to-buffer method to encode video data

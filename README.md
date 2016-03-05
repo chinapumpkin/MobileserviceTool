@@ -1,10 +1,18 @@
-# MobileServiceTool
+# MobileServiceTool  
 this branch is for android part code  
 The code for the web pages is in here:  
 https://github.com/chinapumpkin/web
-##Function
+##Components   
+1. Android phone   
+2. Pupil headset  
+3. Indicator-based Glasses  
+4. OldBirds  
+5. Web server part   
+
+##Function  
+1. 
 ##Requirements
-* up Android 4.1
+* up Android 4.1  
     Because I use MediaCodec API and the buffer-to-buffer method to encode video data
 ```java
 //Callback of all speeches
